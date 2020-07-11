@@ -1,0 +1,115 @@
+/* Styles */
+
+body {
+  margin: 0;
+  font-family: Lucida Console; /*Took me forever to find an MS-DOS font */
+  background-color: black;
+}
+
+header {
+  height: 140px;
+  background-color: black;
+  border-radius: 8px;
+  border: 5px solid rgb(69, 223, 69); /*Looks like this is the perfect MS-Dos color */
+
+}
+
+.logo {
+  font-family: Lucida Console;
+  font-size: 72px;
+  color: rgb(69, 223, 69);
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header h2 {
+  font-family: Lucida Console;
+  color: rgb(69, 223, 69);
+  margin: 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: rgb(69, 223, 69);
+}
+
+section {
+  padding: 0 10%;
+  margin: 80px 0;
+}
+
+/* ---Phew---Now on to the Type---*/
+
+h1, h2, h3 {
+  font-family: Lucida Console;
+  color: rgb(69, 223, 69);
+  text-align: center;
+  font-weight: 500;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 26px; }
+h3 { font-size: 18px; }
+
+p, li {
+  font-family: Lucida Console;
+  color: rgb(69, 223, 69);
+  text-align: center;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(69, 223, 69)
+}
+a:link { color: rgb(69, 223, 69); 
+         text-decoration: underline;
+}
+a:hover { color: black;
+          background: rgb(69, 223, 69); 
+          }
+a:hover { text-decoration: underline; }
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer p {
+  color: rgb(69, 223, 69);
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+/* We're getting there: Elements */
+
+img {
+  width: 60%;
+  border-radius: 8px;
+  border: 5px solid rgb(69, 223, 69);
+  position: center;
+} 
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 8px;
+  border: 5px solid rgb(69, 223, 69);
+}
+
+/* And finally: Modifier styles */
+
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid rgb(69, 223, 69);
+}

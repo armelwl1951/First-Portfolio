@@ -1,1 +1,1 @@
-# First-Portfolio
+First portfolio for my HTML & CSS fundamentals at Thinkful.com
